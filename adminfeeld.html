@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Sea Battle</title>
+		<link rel="stylesheet" type="text/css" href="style/mystyle.css">
+		<script src="js/feeld.js"></script>
+	</head>
+	<body>
+		<h1 class = "caption">Sea Battle!</h1>
+		<div>
+			<h2 class = "caption"><a href="index.html">Back to start page</a></h2>
+		</div>
+
+		<div class="adminrules">
+			<h2>Правила игры</h2>
+			<ul>
+				<li>Администратором задаются параметры игрового поля в формате «морской бой» - квадрата размерностью NхN.</li>
+				<li>Корабли могут быть только однопалубными.</li>
+				<li>За каждым кораблем должен быть закреплен приз, без этого корабль нельзя создать и разместить на поле.</li>
+				<li>Нельзя ставить корабли в одну и ту же ячейку</li>
+				<li>Каждый пользователь должен иметь свой уникальный ID.</li>
+				<li>Добавление пользователя на игровое поле производится по его уникальному идентификатору.</li>
+				<li>Удаление игрока с поля производится по его уникальному идентификатору.</li>
+				<li>Администратор должен предусмотреть начисление выстрелов для пользователя на конкретном игровом поле.</li>
+				<li>Количество выстрелов у одного и того же пользователя на различных игровых полях может отличаться.</li>
+				<li>Важно, администраторы могут только начислять выстрелы пользователям. Стрелять по игровому полю администраторы не могут.</li>
+			</ul>
+			<h2>Задайте параметры поля</h2>
+			<div id = "adminN">
+				<label for="inN"><b>N = </b></label>
+		    	<input type="enterN" id="inN" placeholder="Введите N" name="N" required>
+		    </div>
+		    <h2>Выберите призы</h2>
+		    <ul>
+		    	<li>Сертификаты</li>
+		    		<label for="inS1">Количество сертификатов (1000 р.): </label>
+		    		<input type="enterN" id="inS1" placeholder="Введите количество" name="N" required>
+		    		<br>
+		    		<label for="inS2">Количество сертификатов (2000 р.): </label>
+		    		<input type="enterN" id="inS2" placeholder="Введите количество" name="N" required>
+		    		<br>
+		    		<label for="inN">Другая стоимость: </label>
+		    		<input type="enterN" id="inN" placeholder="Введите стоимость" name="N" required>
+		    		<label for="inN">Количество сертификатов: </label>
+		    		<input type="enterN" id="inN" placeholder="Введите количество" name="N" required>
+
+		    	<li>Промокоды</li>
+		    		<label for="inN">Количество промокодов: </label>
+		    		<input type="enterN" id="inN" placeholder="Введите количество" name="N" required>
+		    	<li>Другое (добавить)</li>
+		    </ul>
+
+		    <h2>Количество выстрелов у одного игрока</h2>
+		    <div id = "adminN">
+				<label for="inN"><b>Количество выстрелов: </b></label>
+		    	<input type="enterN" id="inN" placeholder="Введите кол-во выстрелов" name="N" required>
+		    </div>
+		    <button id="subN">Применить</button>
+
+		    <div id="table-container"></div>
+		    <div id="image-container"></div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,150 @@
+body{
+	background-color: #06d1d3;
+}
+
+.caption{
+	font-size: 34px;
+	text-align: center;
+	font-family: Jokerman;
+}
+
+.caption:hover{
+	color: #25345e
+}
+
+
+table{
+	width: 80%;
+	margin: auto;
+	font-size: 28px;
+	text-align: center;
+}
+
+td{
+	border: solid 1px black;
+	width: 50%;
+	padding: 1%;
+}
+
+td > img{
+	width: 67%;
+}
+
+
+td:hover{
+	background-color: #d6fef7;
+	text-decoration: underline;
+	color: #25345e;
+}
+
+a:link{
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #000000;
+	text-decoration: none;	
+}
+
+
+
+/*Form*/
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+  width: 80%;
+  margin: auto;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn, .loginbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn, .loginbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #ffc6a1;
+  text-align: center;
+  margin: auto;
+  width: 78%;
+  padding: 0.1%;
+}
+
+.signin:hover{
+	background-color: #ffc88e;
+}
+
+.adminrules{
+	background-color: #c5cdff;
+	font-size: 18px;
+	line-height: 1.5;
+	width: 80%;
+	margin: auto;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+input[type=enterN] {
+  	text-align: center;
+  	display: inline-block;
+  	border: none;
+  	background: #f1f1f1;
+}
+
+#adminN{
+	text-align: center;
+}
+
+#subN {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin-left: 35%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: none;
+ # cursor: pointer;
+  width: 30%;
+}
+
+#subN:hover {
+  opacity:1;
+}
+
